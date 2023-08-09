@@ -3,7 +3,7 @@ const app = express();
 
 app.get('/image', (req, res) => {
   // Serve the specific image for /image route
-  res.sendFile(__dirname + '/webbg2.png');
+  res.sendFile(__dirname + '/w4sstudio.svg');
 });
 
 // Serve the main website for all other routes
