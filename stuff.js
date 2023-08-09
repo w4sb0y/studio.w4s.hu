@@ -8,7 +8,7 @@ app.get('/image', (req, res) => {
 
 app.get('/image', (req, res) => {
   // Serve the specific image for /image route
-  res.sendFile(__dirname + '/itt-a-kurva-svgd.svg');
+  res.sendFile(__dirname + '/itt-a-kura-svgd.svg');
 });
 
 // Serve the main website for all other routes
